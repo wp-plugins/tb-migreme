@@ -68,7 +68,7 @@ if ($_POST['enviado']) {
 	<h3 class="title">Configurações</h3>
 	
 	<div>
-		<p>Preencha os campos abaixo com os dados do seu Twitter, dessa forma você poderá twittar seus novos posts:</p>
+		<p>Preencha os campos abaixo com os dados do seu perfil no Twitter. Dessa forma, você poderá twittar seus posts assim que eles forem publicados.</p>
 		<form action="" method="post">
 			
 			<p><label for="username">Username: <input type="text" name="username" value="<?php echo get_option('tbmigreme_user') ?>" id="username" style="width:150px;" /></label></p>
@@ -80,7 +80,7 @@ if ($_POST['enviado']) {
 	<h3 class="title">Botão do Twitter</h3>
 	
 	
-		<p>Se você quiser, o TB Migre.me também pode inserir um botão de retweets nos seus posts. Basta configurar abaixo:</p>
+		<p>O TB Migre.me pode inserir um botão com a contagem de retweets no seu post. Você pode ativá-lo e configurá-lo abaixo</p>
 		
 		<div style="margin:10px 0;">
 		<label for="uso_botao">
@@ -120,7 +120,7 @@ if ($_POST['enviado']) {
 		<?php else: ?>
 		<img src="http://tecnoblog.net/wp-content/uploads/2011/04/7.png" alt="Obrigado pelo apoio!" title="Obrigado pelo apoio!" style="float:right;" class="emoticon" />
 		<?php endif; ?>
-		<p>O Tecnoblog não recebe nada pelo desenvolvimento desse plugin. Muitas vezes iniciamos o desenvolvimento por necessidades internas e então adaptamos o código para compartilhar com a comunidade. Se você gostou desse plugin, pode nos ajudar a divulgá-lo deixando a opção abaixo <b>desmarcada</b>. Mas a escolha é sua, se preferir remover o link basta marcar a checkbox clicar em salvar. :)</p>
+		<p>O Tecnoblog não recebe nada pelo desenvolvimento de plugins, que muitas vezes são produzidos por necessidades internas e depois têm seu código adaptado para compartilhar com a comunidade. Você pode nos ajudar a divulgar esse plugin deixando a opção abaixo desmarcarda. Se preferir, também pode remover o link ao marcar a checkbox e depois clicar em <b>Salvar</b>.</p>
 			<label for="nao_promover"><input type="checkbox" name="nao_promover" value="false" id="nao_promover" <?php if (get_option('tbmigreme_promova') == 'false') echo 'checked=""' ?> /> Remover o link de divulgação</label>
 
 			<div class="submit">
