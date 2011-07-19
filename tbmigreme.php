@@ -4,7 +4,7 @@ Plugin Name: TB Migre.me
 Plugin URI: http://tecnoblog.net/
 Description: O TB Migre.me encurta as suas urls com o Migre.me e publica na sua conta do twitter. O plugin ainda pode inserir o botão do Twitter em seus posts automaticamente.
 Author: Tecnoblog
-Version: 1.0
+Version: 1.0.1
 Author URI: http://tecnoblog.net/
 */
 
@@ -328,14 +328,14 @@ function get_tbmigreme() {
 global $tbplugin;
 $tbplugin[] = 'tbmigreme';
 
-add_action('wp_footer', 'tbmigreme_footer');
+/*add_action('wp_footer', 'tbmigreme_footer');
 
 function tbmigreme_footer() {
 	if (get_option('tbmigreme_promova') == 'false') return false;
 	global $tbplugin;
 	$tbplugin['msg_footer'] = 'posted';
 	echo '<div style="font-size:10px;color:#555;">Usando plugins do <a href="http://tecnoblog.net/">TB</a></div>';
-}
+}*/
 
 /* Função que atualiza o status no Twitter sem usar oAuth */
 

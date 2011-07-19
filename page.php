@@ -112,7 +112,7 @@ if ($_POST['enviado']) {
 		
 	</div>
 	
-	<h3 class="title">Retirar link do footer</h3>
+	<?php /* <h3 class="title">Retirar link do footer</h3>
 	
 	<div>
 		<?php if (get_option('tbmigreme_promova') == 'false') : ?>
@@ -128,7 +128,7 @@ if ($_POST['enviado']) {
 			<input type="hidden" name="enviado" value="true" id="enviado">
 			</div>
 		</form>
-	</div>
+	</div> */ ?>
 	<h3>Funções do TB Migre.me</h3>
 	<div>
 		<p><b><em>tb_migreme();</em></b> - Utilize essa função para inserir o botão de twitter nas páginas. Ela exibirá o botão conforme configurado nessa página.</p>
