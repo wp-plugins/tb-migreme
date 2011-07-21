@@ -106,7 +106,7 @@ if ($_POST['enviado']) {
 			<img src="http://a1.twimg.com/a/1301438647/images/goodies/tweetn.png" alt="" style="margin-top:25px;" /></label>
 			
 			<label for="botao4" <?php if (get_option('tbmigreme_botao') == 'botao4') echo 'class="sel"' ?>><input type="radio" name="botao" value="botao4" id="botao4" <?php if (get_option('tbmigreme_botao') == 'botao4') echo 'checked=""' ?> /><br/>
-			<img src="<?php bloginfo('wpurl') ?>/wp-content/plugins/tbmigreme/twittar.png" alt=""  style="margin-top:25px;" /></label>
+			<img src="<?php bloginfo('wpurl') ?>/wp-content/plugins/tb-migreme/twittar.png" alt=""  style="margin-top:25px;" /></label>
 			
 			<div style="clear:both;"></div>
 		
@@ -121,14 +121,13 @@ if ($_POST['enviado']) {
 		<img src="http://tecnoblog.net/wp-content/uploads/2011/04/7.png" alt="Obrigado pelo apoio!" title="Obrigado pelo apoio!" style="float:right;" class="emoticon" />
 		<?php endif; ?>
 		<p>O Tecnoblog não recebe nada pelo desenvolvimento de plugins, que muitas vezes são produzidos por necessidades internas e depois têm seu código adaptado para compartilhar com a comunidade. Você pode nos ajudar a divulgar esse plugin deixando a opção abaixo desmarcarda. Se preferir, também pode remover o link ao marcar a checkbox e depois clicar em <b>Salvar</b>.</p>
-			<label for="nao_promover"><input type="checkbox" name="nao_promover" value="false" id="nao_promover" <?php if (get_option('tbmigreme_promova') == 'false') echo 'checked=""' ?> /> Remover o link de divulgação</label>
+			<label for="nao_promover"><input type="checkbox" name="nao_promover" value="false" id="nao_promover" <?php if (get_option('tbmigreme_promova') == 'false') echo 'checked=""' ?> /> Remover o link de divulgação</label> */ ?>
 
 			<div class="submit">
 			<input type="submit" value="Salvar">
 			<input type="hidden" name="enviado" value="true" id="enviado">
 			</div>
 		</form>
-	</div> */ ?>
 	<h3>Funções do TB Migre.me</h3>
 	<div>
 		<p><b><em>tb_migreme();</em></b> - Utilize essa função para inserir o botão de twitter nas páginas. Ela exibirá o botão conforme configurado nessa página.</p>
