@@ -4,7 +4,7 @@ Donate link: http://tecnoblog.net
 Tags: twitter, migre.me, migreme, button, post
 Requires at least: 2.0
 Tested up to: 3.1.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 O TB Migre.me encurta as suas urls com o Migre.me e publica na sua conta do twitter. O plugin ainda pode inserir o botão do Twitter em seus posts.
 
